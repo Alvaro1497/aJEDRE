@@ -1,8 +1,5 @@
 package tablero;
-
-public class Peon extends Tablero  {
-
-	ppublic class Peon extends Pieza {
+public class Peon extends Pieza {
 
 	private String peonBlanca;
 	private String peonNegra;
@@ -20,5 +17,5 @@ public class Peon extends Tablero  {
 	public void setPeonNegra(String peonNegra) {
 		this.peonNegra = peonNegra;
 	}
-}	
+	
 }
