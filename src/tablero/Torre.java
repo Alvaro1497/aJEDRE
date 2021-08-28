@@ -1,26 +1,26 @@
 package tablero;
 
-public class Peon extends Pieza {
+public class Torre extends Pieza {
 
-	private String peonBlanca;
-	private String peonNegra;
-	
-	public String getPeonBlanca() {
-		return peonBlanca;
+	private String torreBlanca;
+	private String torreNegra;
+
+	public String getTorreBlanca() {
+		return torreBlanca;
 	}
-	public void setPeonBlanca(String peonBlanca) {
-		this.peonBlanca = peonBlanca;
+
+	public void setTorreBlanca(String torreBlanca) {
+		this.torreBlanca = torreBlanca;
 	}
-	
-	public String getPeonNegra() {
-		return peonNegra;
+
+	public String getTorreNegra() {
+		return torreNegra;
 	}
-	public void setPeonNegra(String peonNegra) {
-		this.peonNegra = peonNegra;
+
+	public void setTorreNegra(String torreNegra) {
+		this.torreNegra = torreNegra;
 	}
-	
+
 }
-
-	}
 
 
