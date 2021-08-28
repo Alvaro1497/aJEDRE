@@ -1,16 +1,25 @@
 package tablero;
+package tablero;
 
-public class ReyB extends Tablero {
+public class ReyB extends Pieza {
 
-	public  void reyB() {
-		
-		Pieza reyB = new Pieza ();
-		reyB.setNombre("RB");
-		
-		tablero [0][4]="RB";
-		
-		
-		
+	private String reyBlanca;
+	private String reyNegra;
 
+	public String getReyBlanca() {
+		return reyBlanca;
 	}
+
+	public void setReyBlanca(String reyBlanca) {
+		this.reyBlanca = reyBlanca;
+	}
+
+	public String getReyNegra() {
+		return reyNegra;
+	}
+
+	public void setReyNegra(String reyNegra) {
+		this.reyNegra = reyNegra;
+	}
+
 }
