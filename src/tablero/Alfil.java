@@ -1,22 +1,24 @@
 package tablero;
 
 
-public class Alfil extends Tablero  {
-	public void alfil(){
-		
-		Pieza alfil1 = new Pieza();
-		alfil1.setNombre("AfB1");
+public class Alfil extends Pieza{
+	private String alfilBlanca;
+	private String alfilNegra;
 
-		Pieza alfil2 = new Pieza();
-		alfil2.setNombre("AfB2");
-		
-		
-		
-		
-		
-		 
-		
-		
-
+	public String getAlfilBlanca() {
+		return alfilBlanca;
 	}
+
+	public void setAlfilBlanca(String alfilBlanca) {
+		this.alfilBlanca = alfilBlanca;
+	}
+
+	public String getAlfilNegra() {
+		return alfilNegra;
+	}
+
+	public void setAlfilNegra(String alfilNegra) {
+		this.alfilNegra = alfilNegra;
+	}
+
 }
