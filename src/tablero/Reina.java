@@ -1,16 +1,23 @@
 package tablero;
+public class Reina extends Tablero {
 
-public class Reina extends Tablero  {
+	private String reinaBlanca;
+	private String reinaNegra;
 
-	public void RnB() {
-		Pieza RnB = new Pieza ();
-		RnB.setNombre("RnB");
-		
-		tablero [0][5]="RnB";
-		
-		
-		
+	public String getReinaBlanca() {
+		return reinaBlanca;
+	}
 
+	public void setReinaBlanca(String reinaBlanca) {
+		this.reinaBlanca = reinaBlanca;
+	}
+
+	public String getReinaNegra() {
+		return reinaNegra;
+	}
+
+	public void setReinaNegra(String reinaNegra) {
+		this.reinaNegra = reinaNegra;
 	}
 
 }
