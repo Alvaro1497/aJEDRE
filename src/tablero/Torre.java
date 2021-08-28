@@ -1,31 +1,26 @@
 package tablero;
 
-public class Torre extends Tablero {
+public class Peon extends Pieza {
 
-	public Torre() {
-		// TODO Auto-generated method stub
-		Pieza torre1 = new Pieza ();
-		torre1.setNombre("T1B");
-		
-		Pieza torre2 = new Pieza ();
-		torre2.setNombre("T2B");
+	private String peonBlanca;
+	private String peonNegra;
 	
-		tablero [0][0]="TB1";
-		tablero [0][7]="TB2";
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	    
+	public String getPeonBlanca() {
+		return peonBlanca;
 	}
-		
-		
+	public void setPeonBlanca(String peonBlanca) {
+		this.peonBlanca = peonBlanca;
+	}
+	
+	public String getPeonNegra() {
+		return peonNegra;
+	}
+	public void setPeonNegra(String peonNegra) {
+		this.peonNegra = peonNegra;
+	}
+	
+}
+
 	}
 
 
